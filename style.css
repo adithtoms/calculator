@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.calculator{
+    width: 350px;
+    background-color: rgb(39, 39, 40);
+    padding:10px 10px ;
+    border-radius: 15px;
+    box-shadow:  0 0 1em inset rgb(184, 178, 178);
+
+}
+.line1,.line2,.line3,.line4,.line5{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 10px;
+}
+.btnn{
+    border: none;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    
+}
+.btnn:hover{
+    box-shadow:  0 0 1em rgb(67, 66, 66);
+}
+.btn-5{
+    background-color:rgb(47, 47, 50) ;
+    color: white;
+    font-size: large;
+}
+.btn-1,.btn-2,.btn-3,.btn-4,.btn-8,.btn-12,.btn-16,.btn-20{
+    background-color: rgb(212, 147, 7);
+    color: white;
+    font-size: large;
+}
+.input{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: rgb(55, 55, 59); ;
+}
+.buttons{
+    width: 100%;
+   
+}
